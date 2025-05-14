@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr"> 
+<head> 
+<title>ma page web</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style type="text/css">
+fieldset{margin-bottom: 20;} 
+.fml{display:flex; margin-bottom:10px
+    ;}
+    .fml input { flex: 1;margin-right: 20;
+    }
+.fml label{width: 100px;
+}
+</style>
+</head>
+<body>
+    <fieldset style="border-style: dashed;border-color: blueviolet;">
+                                <legend><strong>Etat-civil</strong></legend>
+                              <div class="fml"> <label for="Matricule">Matricule :</label>      <input type="text" name="Matricule" id="Matricule" tabindex="10" >     <label for="Nom">Nom:</label>     <input type="text" name="nom" id="nom" tabindex="10" /></div><br/>
+
+                              <div> <label for="Prenom">Prenom:</label>   <input type="text"name="prenom" id="prenom" tabindex="10"/>                           <label for="Sexe">Sexe:</label>  <input type="text" name="Sexe" id="Sexe" tabindex="10"/></div><br/> 
+
+                              <div> <label for="date de naissance">Date de naissance</label>  <input type="text" name="date de naissance" id="date de naissance" tabindex="10"/>  <label for="Âge">Âge:</label> <input type="text" name="Âge" id="Âge" tabindex="10"/></div><br/>
+                            </fieldset>
+                            <fieldset style="border-style: double;border-color: darkblue;">
+                                <legend><strong>Mes diplomes</strong></legend>
+                                <input type="checkbox" name="CEP" id="CEP" tabindex="10"/> <label for="cep">CEP</label>  <input type="checkbox" name="BEPC" id="BEPC" tabindex="10"/> <label for="BEPC">BEPC</label> <input type="checkbox" name="BAC" id="BAC" tabindex="10"/> <label for="BAC">BAC</label>  
+                                
+                            </fieldset>
+                            
+                            <fieldset style="border-color: brown;">
+                                <legend><strong>EXPERTISE</strong></legend>
+                                <input type="radio" name="expert en IT" id="expert en IT" tabindex="10"/> <label for="expert en IT">expert en IT</label>  <input type="radio" name="expert bavardage" id="expert bavardage" tabindex="10"/>  <label for="expert en bavardage">Expert en bavardage</label>
+                            </fieldset>
+                            <fieldset style="border-style: solid; border-color: chocolate;">
+                              <legend><strong>LES BOUTONS</strong></legend>
+                              <input type="submit"value="Envoyer" />  <input type="button"value="je ne sais à rien"/> <input type="reset"value="Quitter" /> 
+
+                            </fieldset>
+                              
+    </form>  
+    <a href="Tableaux.html">Precedent</a>     
+</body>
+
+
+
+</body>
