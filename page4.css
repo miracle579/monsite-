@@ -1,0 +1,25 @@
+table 
+{ 
+border-collapse: collapse; 
+text-align: center;
+} 
+td, th /* Mettre une bordure sur les td ET les th */ 
+{ 
+border: 1px solid black; 
+} 
+.vertical-text {writing-mode: vertical-rl; */
+text-orientation: upright;
+}
+.oblique{transform: rotate(300 deg);} 
+.vertical{transform: rotate(600 deg);}
+ 
+
+table{margin-bottom: 30px;}
+
+ table{margin-bottom: 30px;}
+    table{color: rgb(72, 9, 29);}
+    strong{color: indigo;}
+    body{background-color: azure;}
+    .oblique{ transform: rotate(300)
+        }
+   .vertical{transform: rotate(100);}

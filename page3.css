@@ -1,0 +1,83 @@
+ 
+Body {color:navy;font-family: ’Trebuchet MS’, times, verdana;  }
+   p {  font-size: 14px;} 
+   h1 { 
+    font-size: large; 
+    } 
+    .gras { 
+        font-weight: bold; 
+        } 
+        .italique { 
+            font-style: italic; 
+            } 
+            h1 { 
+                text-decoration: underline overline; 
+                } 
+                a { 
+                    text-decoration: none; 
+                    } 
+                    a:hover { 
+                    text-decoration: underline; 
+                    } 
+                    p { 
+                        font: italic bold 120%/140% Arial, sans-serif; 
+                        } 
+                     
+
+
+ 
+.cercle 
+{ 
+list-style-type: circle; 
+} 
+.carre 
+{ 
+list-style-type: square; 
+} 
+.rien 
+{ 
+list-style-type: none; 
+} 
+XHTML-CSS Page 47
+ 47 
+ 
+ 
+ 
+ 
+ 
+.commence_a_zero 
+{ 
+list-style-type: decimal-leading-zero; 
+} 
+.lettres_minuscules 
+{ 
+list-style-type: lower-alpha; 
+} 
+.chiffres_romains 
+{ 
+list-style-type: upper-roman; 
+} 
+.lettres_grecques 
+{ 
+list-style-type: lower-greek; 
+} 
+ 
+/* Quelques styles supplémentaires juste pour la présentation 
+En plus ça vous fait quelques rappels ;o) */ 
+ 
+h2 
+{ 
+text-indent: 20px; 
+font-family: Arial, Verdana, "Times New Roman", serif; 
+} 
+em 
+{ 
+background-color: yellow; 
+} 
+strong 
+{ 
+color: red; 
+} 
+ 
+ 
+ 
